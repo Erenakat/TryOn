@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "TryOn",
+    "slug": "tryon",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tryon.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Appen trenger tilgang til kameraet for å ta fjes- og kroppsbilder."
+      }
+    },
+    "android": {
+      "package": "com.tryon.app",
+      "permissions": [
+        "android.permission.CAMERA"
+      ],
+      "usesCleartextTraffic": true
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Appen trenger tilgang til kameraet for å ta fjes- og kroppsbilder.",
+          "photosPermission": "Appen trenger tilgang til bildene for å laste opp fra galleri."
+        }
+      ]
+    ]
+  }
+}

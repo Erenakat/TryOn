@@ -1,0 +1,23 @@
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
+
+# Local env files
+.env*.local
+
+# Backend
+backend/node_modules/
+ai-backend/__pycache__/
+ai-backend/.venv/
+ai-backend/*.pyc
